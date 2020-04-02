@@ -31,4 +31,5 @@ dependencies:
   - r-curl
   - r-httr
   - r-devtools
+  - simpledbf
   
