@@ -1,4 +1,4 @@
-grass-core
+grass
 grass-dev
 r-base
 r-base-dev
