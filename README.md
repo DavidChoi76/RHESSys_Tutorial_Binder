@@ -10,7 +10,7 @@ Try out RHESsys Model Simulation with a brief interactive tutorial by clicking t
 
 When JupyterHub starts, you can find "rhessys_example_download.ipynb".
 1) Open "rhessys_example_download.ipynb" notebook and execute codes.
- - Get notebooks, source code etc from HydroShare resource :https://www.hydroshare.org/resource/726ad560948d4c88b6ca7ef8b3d44cba/
+ - Get notebooks, source code etc from HydroShare resource :https://www.hydroshare.org/resource/f974fcd6f7c9404fba1c63fd7857ce18/
 2) Open 1_Preprocessing_to_Create_RHESsys_Model_Input_using_GRASS_GIS_and_R-script_on_Collaborative_Modeling_Framework.ipynb notebook
  - The notebook include
    1. Create Project Directory and Download Raw GIS Data from HydroShare
