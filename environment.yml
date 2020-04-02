@@ -23,7 +23,7 @@ dependencies:
   - r-XML
   - r-rgdal
   - r-remotes
-  - r-rgrass7==0.1-12
+  - r-rgrass7
   - r-units
   - r-sf
   - r-stars
