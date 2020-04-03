@@ -4,7 +4,7 @@ jupyter labextension install @pyviz/jupyterlab_pyviz
 git clone https://github.com/uva-hydroinformatics/pyRHESSys.git \
   && cd pyRHESSys && pip install .
 apt-get update && apt-get install -y
-software-properties-common curl
+#software-properties-common curl
 add-apt-repository ppa:ubuntugis/ubuntugis-unstable
 apt-get update
 apt-get install -y grass grass-dev libgdal-dev libproj-dev
