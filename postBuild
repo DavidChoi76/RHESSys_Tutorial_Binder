@@ -1,11 +1,12 @@
 source activate pyRHESSys
 python -m ipykernel install --user --name pyRHESSys
 jupyter labextension install @pyviz/jupyterlab_pyviz
-# download a sample dataset
-# mkdir -p data/grassdata \
-#   && curl -SL https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip > nc_basic_spm_grass7.zip \
-#   && unzip -qq nc_basic_spm_grass7.zip \
-#   && mv nc_basic_spm_grass7 data/grassdata \
-#   && rm nc_basic_spm_grass7.zip
 git clone https://github.com/uva-hydroinformatics/pyRHESSys.git \
   && cd pyRHESSys && pip install .
+apt-get update && apt-get install -y
+software-properties-common curl
+add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+apt-get update
+apt-get install -y grass grass-dev libgdal-dev libproj-dev
+apt-get autoremove
+apt-get clean
