@@ -13,6 +13,7 @@ dependencies:
   - distributed
   - toolz
   - dask-jobqueue
+  - gdal
   - geopandas
   - holoviews
   - bokeh==1.4.0
